@@ -93,10 +93,6 @@ jobs:
           # DeepSeek
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DEEPSEEK_API_KEYS: ${{ secrets.DEEPSEEK_API_KEYS }}
-                    # Minimax 渠道
-          LLM_MINIMAX_API_KEY: ${{ secrets.LLM_MINIMAX_API_KEY }}
-          LLM_MINIMAX_BASE_URL: ${{ vars.LLM_MINIMAX_BASE_URL || secrets.LLM_MINIMAX_BASE_URL || 'https://api.minimaxi.com/v1' }}
-          LLM_MINIMAX_MODELS: ${{ vars.LLM_MINIMAX_MODELS || secrets.LLM_MINIMAX_MODELS || 'MiniMax-M2.7' }}
           # Anthropic / Claude
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_API_KEYS: ${{ secrets.ANTHROPIC_API_KEYS }}
